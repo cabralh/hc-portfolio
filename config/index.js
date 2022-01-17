@@ -1,8 +1,8 @@
 module.exports = {
   //-- SITE SETTINGS -----
-  author: "@konstantinmuenster",
+  author: "@cabralhjr",
   siteTitle: "Gatsby Starter Portfolio Minimal",
-  siteShortTitle: "Gatsby", // Used as logo text in header, footer, and splash screen
+  siteShortTitle: "Henry Cabral", // Used as logo text in header, footer, and splash screen
   siteDescription:
     "A modern one-page portfolio with a clean yet expressive design.",
   siteUrl: "https://gatsby-starter-portfolio-minimal.netlify.app/",
@@ -45,12 +45,12 @@ module.exports = {
 
   //-- ARTICLES SECTION SETTINGS -----
   // You can create your own Medium feed with this rss to json converter: https://rss2json.com/
-  // To access your Medium RSS feed, just replace this url with your username: https://medium.com/feed/@{yourname}
+  // To access your Medium RSS feed, just replace this url with your username: https://medium.com/feed/@hjcbr19
   mediumRssFeed:
-    "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40konstantinmuenster",
+    "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40hjcbr19",
   // rssFeed: "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fwww.theguardian.com%2Finternational%2Frss",
 
-  shownArticles: 3,
+  shownArticles: 5,
 
   //-- SOCIAL MEDIA SETTINGS -----
   // There are icons available for the following platforms:
@@ -58,24 +58,27 @@ module.exports = {
   socialMedia: [
     {
       name: "Linkedin",
-      url: "https://www.linkedin.com/in/konstantin-muenster/",
+      url: "https://www.linkedin.com/in/henrycabral/",
     },
     {
       name: "Medium",
-      url: "https://konstantinmuenster.medium.com/",
+      url: "https://hjcbr19.medium.com/",
     },
     {
       name: "Github",
-      url:
-        "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal",
+      url: "https://github.com/cabralh",
     },
     {
-      name: "Behance",
-      url: "https://www.behance.net/konstanmnster",
+      name: "Twitter",
+      url: "https://twitter.com/cabralhjr",
+    },
+    {
+      name: "Gumroad",
+      url: "https://cabralh.gumroad.com/",
     },
     // {
     //   name: "Mail",
-    //   url: "mailto:mail@konstantin.digital",
+    //   url: "mailto:hjcbr19@outlook.com",
     // },
   ],
 
@@ -83,11 +86,11 @@ module.exports = {
   navLinks: {
     menu: [
       {
-        name: "About Me",
+        name: "About Me", // covers experience
         url: "/#about",
       },
       {
-        name: "Features",
+        name: "Portfolio", // covers projects, clients worked with, etc.
         url: "/#projects",
       },
       {
@@ -98,7 +101,7 @@ module.exports = {
     button: {
       useFileName: true,
       name: "Resume",
-      fileName: "goldenpuppy.pdf", // the file has to be placed inside the static folder at the root level
+      fileName: "HJC-Resume.pdf", // the file has to be placed inside the static folder at the root level
       url: "", // if useFileName=false, you can set an anchor link here and use the button for navigational purposes
     },
   },
